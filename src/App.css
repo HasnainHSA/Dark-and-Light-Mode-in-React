@@ -1,0 +1,261 @@
+.app-dark{
+  background-color: black;
+}
+
+.app-light{
+  background-color: white;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 20vh;
+}
+
+.logo-light{
+  color: black;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-left: -40px;
+}
+
+.logo-dark{
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-left: -40px;
+}
+
+.navlinks ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navlinks-light ul li{
+  list-style: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color:black;
+}
+
+.navlinks-dark ul li{
+  list-style: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 100px;
+}
+.text{
+  width: 40%;
+}
+
+.text-light h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.text-dark h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.text h1 span{
+  font-weight: bolder;
+}
+.text-light p{
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.text-dark p{
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.hero-btns{
+  display: flex;
+}
+
+.herobtn1-light{
+  padding: 10px 20px;
+  font-size: 22px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  outline: none;
+  border-radius: 5px;
+}
+
+.herobtn1-dark{
+  padding: 10px 20px;
+  font-size: 22px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  outline: none;
+  border-radius: 5px;
+}
+
+.herobtn2-light{
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 22px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  outline: none;
+  border-radius: 5px;
+}
+
+.herobtn2-dark{
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 22px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  outline: none;
+  border-radius: 5px;
+}
+
+.image img{
+  width: 500px;
+  border-radius: 10px;
+}
+
+
+.card-sec{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: -100px;
+  left: 7%;
+}
+
+.card-con-light{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  width: 250px;
+  height: 200px;
+  margin: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-con-dark{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  width: 250px;
+  height: 200px;
+  margin: 10px 20px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  border: 4px solid white;
+}
+
+.card-icon{
+  font-size: 3rem;
+}
+
+.card-head{
+  margin: 10px 10px;
+}
+
+.card-para{
+  margin-top: 10px;
+}
+
+.about-light{
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 80vh;
+  color: white;
+  margin-top: 140px;
+  text-align: center;
+}
+
+.about-dark{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 80vh;
+  color: black;
+  margin-top: 140px;
+  text-align: center;
+}
+
+.about-inner h1{
+  padding-top: 180px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.about-inner .about-head-light {
+  color: white;
+}
+
+.about-inner .about-head-dark {
+  color: black;
+}
+
+.about-inner .about-para{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.small-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -100px;
+}
+
+.small-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right{
+  margin-top: 50px;
+}
